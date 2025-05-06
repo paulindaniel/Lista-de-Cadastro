@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro de Alunos - Estilo Y2K</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Alunos</h1>
+
+        <!-- Formulário para adicionar um aluno -->
+        <form id="form-cadastro">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required>
+            
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso" name="curso" required>
+            
+            <button type="submit">Adicionar Aluno</button>
+        </form>
+
+        <h2>Lista de Alunos</h2>
+        <ul id="lista-alunos">
+            <!-- Alunos cadastrados serão exibidos aqui -->
+        </ul>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
